@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="STIGMAT. For enquiries and collaborations: contact@stigmat.eu.">
+  <title>STIGMAT</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg class="effect-definitions" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <filter id="liquid-metal" x="-15%" y="-30%" width="130%" height="160%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency="0.008 0.025" numOctaves="2" seed="12" result="flow"/>
+        <feDisplacementMap in="SourceGraphic" in2="flow" scale="38" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </defs>
+  </svg>
+  <main class="landing">
+    <div class="landing-content">
+    <section class="identity" aria-label="STIGMAT">
+      <h1><img class="wordmark" src="assets/logo.svg" width="1034" height="242" alt="STIGMAT"></h1>
+    </section>
+
+    <section class="information" aria-label="Contact">
+      <div class="contact">
+        <h2>For enquiries &amp; collaborations</h2>
+        <a class="email" href="mailto:contact@stigmat.eu"><span>contact@stigmat.eu</span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.2"/></svg></a>
+      </div>
+    </section>
+
+    </div>
+
+    <footer class="footer">
+      <span>© 2026 STIGMAT</span>
+      <span>All rights reserved</span>
+    </footer>
+  </main>
+</body>
+</html>
